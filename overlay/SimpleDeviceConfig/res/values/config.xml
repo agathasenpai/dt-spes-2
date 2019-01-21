@@ -22,4 +22,7 @@
         <!-- Allow more cached apps in the background -->
         <item>activity_manager/max_cached_processes=64</item>
     </string-array>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 </resources>
