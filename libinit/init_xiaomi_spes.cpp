@@ -61,10 +61,11 @@ void vendor_load_properties() {
     set_dalvik_heap();
     set_lmk();
 
-    // SafetyNet workaround
+    // Etc
     property_override("ro.boot.verifiedbootstate", "green");
     property_override("ro.oem_unlock_supported", "0");
 
     // LMKD Tunning
 
+    property_override("ro.apex.updatable", "false");
 }
