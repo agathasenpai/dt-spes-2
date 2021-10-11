@@ -217,7 +217,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.spes
+    android.hardware.biometrics.fingerprint@2.3-service.spes
 
 # FM
 PRODUCT_PACKAGES += \
