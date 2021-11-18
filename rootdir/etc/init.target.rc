@@ -205,8 +205,8 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
     oneshot
 
 on property:vendor.dcvs.prop=1
-   start dcvs-sh
-	
+   start dcvs-sh	
+
 service vendor.stflashtool /vendor/bin/STFlashTool
     class late_start
     group nfc
@@ -226,3 +226,10 @@ on post-fs && property:ro.boot.hwname=spesn
 
 on boot && property:ro.boot.hwname=spesn
     start vendor.nfc_hal_service
+
+    # Dex2oat
+on property:persist.sys.device_provisioned=1
+    setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6,7
+    setprop dalvik.vm.dex2oat-threads 4
+    setprop dalvik.vm.image-dex2oat-cpu-set 4,5,6,7
+    setprop dalvik.vm.image-dex2oat-threads 4
