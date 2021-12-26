@@ -267,6 +267,9 @@ sys.fflag.override.settings_enable_monitor_phantom_procs=false
 # Printk
 persist.vendor.console.silent.config=1
 
+# Printk
+persist.vendor.console.silent.config=1
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.data.iwlan.enable=true
