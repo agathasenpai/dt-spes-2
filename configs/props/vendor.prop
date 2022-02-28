@@ -216,6 +216,7 @@ vendor.display.enable_rc_support=1
 vendor.display.enable_rounded_corner=0
 vendor.display.normal_noc_efficiency_factor=0.85
 vendor.display.qdcm.disable_factory_mode=1
+vendor.display.enable_force_split=1
 vendor.display.qdcm.mode_combine=1
 vendor.display.secure_preview_buffer_format=420_sp
 vendor.display.use_layer_ext=0
