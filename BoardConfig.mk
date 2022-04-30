@@ -132,7 +132,8 @@ BOARD_KERNEL_CMDLINE += \
     msm_rtb.filter=0x237 \
     service_locator.enable=1 \
     swiotlb=2048 \
-    cgroup_disable=pressure
+    cgroup_disable=pressure \
+    kpti=off
 
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_FORCE_PREBUILT_KERNEL := true
