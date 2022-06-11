@@ -126,6 +126,9 @@ DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 
+# Render
+debug.cpurend.vsync=false
+
 # System
 persist.sys.binary_xml=false
 
