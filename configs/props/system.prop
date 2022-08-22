@@ -123,6 +123,9 @@ DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 
+# System
+persist.sys.binary_xml=false
+
 # Time-services
 persist.timed.enable=true
 
