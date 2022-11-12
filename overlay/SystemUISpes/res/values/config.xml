@@ -68,4 +68,6 @@
          if set it to false  -->
     <bool name="flag_combined_qs_headers">false</bool>
 
+    <!-- Burn-in protection -->
+    <dimen name="burnin_protection_horizontal_shift">1dp</dimen>
 </resources>
