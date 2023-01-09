@@ -104,6 +104,11 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libtinycompress
 
+# Audio Daemon
+PRODUCT_PACKAGES += \
+    audioadsprpcd \
+    vendor.qti.audio-adsprpc-service.rc
+
 # Audio configs
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
