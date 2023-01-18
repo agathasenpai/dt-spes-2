@@ -503,6 +503,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
     android.hardware.sensors@2.1-service.multihal \
     libsensorndkbridge
 
