@@ -129,6 +129,7 @@ TARGET_FORCE_PREBUILT_KERNEL := true
 TARGET_KERNEL_CONFIG := vendor/bengal_defconfig
 TARGET_KERNEL_HEADERS := kernel/xiaomi/spes
 TARGET_KERNEL_SOURCE := kernel/xiaomi/spes
+TARGET_KERNEL_VERSION := 4.19
 
 # Kernel prebuilt
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
