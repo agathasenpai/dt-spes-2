@@ -1,4 +1,0 @@
-service vendor.qti.vibrator.spes /vendor/bin/hw/vendor.qti.hardware.vibrator.service.spes
-    class hal
-    user system
-    group system input
