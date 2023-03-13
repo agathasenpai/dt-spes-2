@@ -229,9 +229,6 @@ vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 # DPM
 persist.vendor.dpmhalservice.enable=1
 
-# FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # Graphics
 debug.egl.hw=0
 debug.mdpcomp.logs=0
