@@ -487,6 +487,11 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-spes \
     android.hardware.usb.gadget@1.0-service-spes
 
+ifneq ($(TARGET_BUILD_VARIANT),user)
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.usb.config=mtp,adb
+endif
+
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
