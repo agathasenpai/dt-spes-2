@@ -373,6 +373,7 @@ PRODUCT_PACKAGES += \
     SettingsProviderSpes \
     SettingsSpes \
     SystemUISpes \
+    SimpleDeviceConfigSM6225 \
     TelephonySpes \
     WifiSpes \
     NotchBarKiller \
