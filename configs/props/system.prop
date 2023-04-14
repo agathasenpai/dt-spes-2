@@ -35,6 +35,10 @@ ro.sys.fw.dex2oat_thread_count=8
 # DPM
 persist.dpm.feature=1
 
+# Disable wifi kernel tracing
+sys.wifitracing.started=0
+persist.vendor.wifienhancelog=0
+
 # Fingerprint
 sys.fp.miui.token=0
 
