@@ -427,7 +427,14 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3.vendor \
     android.hardware.power-service-qti \
-    vendor.qti.hardware.perf@2.2.vendor
+    android.hardware.thermal@2.0 \
+    android.hardware.thermal@2.0.vendor \
+    libpsi.vendor \
+    libtflite
+
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
 
 # Preopted ODEX files (system_other)
 PRODUCT_PACKAGES += \

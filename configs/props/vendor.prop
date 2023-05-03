@@ -275,8 +275,6 @@ sys.fflag.override.settings_enable_monitor_phantom_procs=false
 # Printk
 persist.vendor.console.silent.config=1
 
-# Printk
-persist.vendor.console.silent.config=1
 
 # Radio
 persist.radio.multisim.config=dsds
@@ -304,6 +302,9 @@ telephony.lteOnCdmaDevice=1
 
 # QSPM
 ro.vendor.qspm.enable=true
+vendor.pasr.activemode.enabled=true
+vendor.power.pasr.enabled=true
+ro.vendor.perf.scroll_opt=true
 
 # Sensors
 persist.vendor.sensors.debug.ssc_qmi_debug=true
