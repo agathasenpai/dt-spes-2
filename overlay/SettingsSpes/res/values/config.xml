@@ -40,4 +40,7 @@
 
     <!-- Ripple animation played at the time of screen unlock-->
     <bool name="config_enableUnlockRippleAnimation">false</bool>
+
+    <!-- Whether to show the Preference for Adaptive connectivity -->
+    <bool name="config_show_adaptive_connectivity">false</bool>
 </resources>
