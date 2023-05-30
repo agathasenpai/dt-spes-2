@@ -52,3 +52,9 @@ bluetooth.profile.sap.server.enabled?=true
 # MAJOR_CLASS: 0x02 -> 2 (Phone)
 # MINOR_CLASS: 0x0C -> 12 (Smart Phone)
 bluetooth.device.class_of_device=90,2,12
+
+# Gboard side padding
+ro.com.google.ime.kb_pad_port_l=4
+ro.com.google.ime.kb_pad_port_r=4
+ro.com.google.ime.kb_pad_land_l=64
+ro.com.google.ime.kb_pad_land_r=64
