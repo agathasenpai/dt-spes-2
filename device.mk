@@ -368,13 +368,13 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigSM6225 \
-    FrameworksSM6225 \
-    SettingsProviderSM6225 \
-    SettingsSM6225 \
-    SystemUISM6225 \
-    TelephonySM6225 \
-    WifiSM6225 \
+    CarrierConfigSpes \
+    FrameworksSpes \
+    SettingsProviderSpes \
+    SettingsSpes \
+    SystemUISpes \
+    TelephonySpes \
+    WifiSpes \
     NotchBarKiller
 
 # Parts
