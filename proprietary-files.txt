@@ -1538,7 +1538,6 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
@@ -1547,6 +1546,9 @@ vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
+
+# Thermal
+vendor/etc/thermal-normal.conf|42ce733f913f676f330f4f0892c28a90946219f2
 
 # Time services
 -vendor/app/TimeService/TimeService.apk
