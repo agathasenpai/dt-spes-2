@@ -375,7 +375,8 @@ PRODUCT_PACKAGES += \
     SystemUISpes \
     TelephonySpes \
     WifiSpes \
-    NotchBarKiller
+    NotchBarKiller \
+    Aperture
 
 # Parts
 PRODUCT_PACKAGES += \
