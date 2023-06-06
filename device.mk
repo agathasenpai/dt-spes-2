@@ -382,7 +382,8 @@ PRODUCT_PACKAGES += \
     TelephonySpes \
     WifiSpes \
     NotchBarKiller \
-    Aperture
+    Aperture \
+    SettingsLibSpes
 
 # Parts
 PRODUCT_PACKAGES += \
