@@ -1167,7 +1167,6 @@ vendor/lib/libqti-perfd.so|14fb31770c601858b0ec5242ef8ca3a40bde7a22
 vendor/lib/libqti-perfd-client.so|729e16fadcce9f52b804263d6e2ddfde44a5bc9d
 vendor/lib/libqti-util.so|78bbb596a789f9de82d0fd8cd9ad400952a8581e
 vendor/lib/libqti-utils.so|3016ae3374b4de3240190d9f885c42cc3ce4d11d
-vendor/lib/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib/vendor.qti.memory.pasrmanager@1.1.so|e37d73c21e661c50f9a62b34fc907b2c1582a0f3
 vendor/lib/vendor.qti.hardware.iop@1.0.so|3e72632e5b67555b6b1b07816ee73b4d19873049
 vendor/lib/vendor.qti.hardware.iop@2.0.so|71a72d48d921ba0130f256cffda754c55106c93b
@@ -1204,7 +1203,6 @@ vendor/lib64/libqti-perfd-client.so|5bf60caf4d1827cb0f4d1b23df8c19c15034a14a
 vendor/lib64/libqti-util.so|edfedf2e31f21eaa43914bf3cd9c81c5437a99a3
 vendor/lib64/libqti-utils.so|1c9a0cb92802ba2314dafbe0152a7568323fff06
 vendor/lib64/libreffeature.so|e158f072f0e003c5e47a54befa09ddc1e306f5aa
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|e966e2ad8b0e92ff8416d6b2f771ba0a74f0f8b8
 vendor/lib64/libsplh.so|9ee7189cba3a0e0e7cf5ade24cad6c45e83cbaef
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|dd98ed98c2e256610d29ff87125864f8d7fedbd8
