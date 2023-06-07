@@ -414,7 +414,8 @@ PRODUCT_PACKAGES += \
     WifiSpes \
     NotchBarKiller \
     Aperture \
-    SettingsLibSpes
+    SettingsLibSpes \
+    BoostFrameworkOverlay
 
 # Parts
 PRODUCT_PACKAGES += \
