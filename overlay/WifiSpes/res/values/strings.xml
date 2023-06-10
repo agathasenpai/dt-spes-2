@@ -6,4 +6,7 @@
     <string name="config_wifiSoftap2gChannelList"></string>
     <string name="config_wifiSoftap5gChannelList"></string>
     <string name="config_wifiSoftap6gChannelList"></string>
+
+    <!-- Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Redmi Note 11</string>
 </resources>
