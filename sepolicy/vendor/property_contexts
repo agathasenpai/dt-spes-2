@@ -2,7 +2,6 @@
 persist.vendor.bt.                              u:object_r:vendor_bluetooth_prop:s0
 
 # Camera
-persist.camera.                                 u:object_r:vendor_camera_prop:s0
 persist.vendor.camera                           u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.                               u:object_r:vendor_camera_prop:s0
 vendor.camera.                                  u:object_r:vendor_camera_prop:s0
