@@ -15,6 +15,9 @@ ifeq ($(wildcard hardware/xiaomi/Android.bp),)
 $(error Error: cannot found hardware/xiaomi repository, please clone it and try to build again!)
 endif
 
+# Inherit from ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # AOSP Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
