@@ -356,5 +356,8 @@ suspend.max_sleep_time_millis=40000
 ro.soc.manufacturer=QTI
 ro.soc.model=SM6225
 
+# USB
+vendor.usb.product_string=Redmi Note 11
+
 # Zygote
 zygote.critical_window.minute=10
