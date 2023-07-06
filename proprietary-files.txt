@@ -94,6 +94,12 @@ vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
+# Audio Conf
+vendor/odm/etc/audio_policy_engine_configuration_mi.xml:odm/etc/audio_policy_engine_configuration_mi.xml
+vendor/odm/etc/audio_policy_engine_default_stream_volumes_mi.xml:odm/etc/audio_policy_engine_default_stream_volumes_mi.xml
+vendor/odm/etc/audio_policy_engine_product_strategies_mi.xml:odm/etc/audio_policy_engine_product_strategies_mi.xml
+vendor/odm/etc/audio_policy_engine_stream_volumes_mi.xml:odm/etc/audio_policy_engine_stream_volumes_mi.xml
+
 # Audio Firmware
 vendor/firmware/aw87xxx_acf.bin
 
