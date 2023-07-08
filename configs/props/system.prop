@@ -129,6 +129,9 @@ rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 # Render
 debug.cpurend.vsync=false
 
+# SdcardFS
+persist.sys.fuse.passthrough.enable=true
+
 # System
 persist.sys.binary_xml=false
 

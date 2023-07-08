@@ -1,6 +1,10 @@
 # DPM
 persist.vendor.dpm.feature=11
 
+# Display
+persist.wm.enable_remote_keyguard_animation=0
+ro.surface_flinger.supports_background_blur=1
+
 # Telephony
 ro.telephony.sim_slots.count=2
 telephony.active_modems.max_count=2
