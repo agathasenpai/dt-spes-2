@@ -8,3 +8,6 @@ ro.surface_flinger.supports_background_blur=1
 # Telephony
 ro.telephony.sim_slots.count=2
 telephony.active_modems.max_count=2
+
+#Bluetooth
+bluetooth.profile.asha.central.enabled=true
