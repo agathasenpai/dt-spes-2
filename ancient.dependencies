@@ -1,7 +1,7 @@
 [
    {
-       "repository"  : "device_xiaomi_spes-kernel",
-       "target_path" : "device/xiaomi/spes-kernel",
+       "repository"  : "device_xiaomi_spes-module",
+       "target_path" : "device/xiaomi/spes-module",
    },
    {
        "repository"  : "vendor_xiaomi_spes",
