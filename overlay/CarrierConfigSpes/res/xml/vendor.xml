@@ -4426,6 +4426,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <string name="display_wifi_icon_type_string">vozwifi
         </string>
     </carrier_config>
+    <carrier_config mcc="440" mnc="10">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="222" mnc="50">
         <string-array name="read_only_apn_types_string_array" num="0"/>
     </carrier_config>
@@ -4503,6 +4506,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     </carrier_config>
     <carrier_config mcc="456" mnc="6">
         <boolean name="editable_enhanced_4g_lte_bool" value="false"/>
+    </carrier_config>
+    <carrier_config mcc="452" mnc="04">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="452" mnc="06">
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="226" mnc="5">
         <boolean name="carrier_5g_switch_available_bool" value="true"/>
@@ -5185,6 +5194,15 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <string name="default_vm_number_string">+48601222222
         </string>
         <boolean name="config_wifi_disconnect_delay_for_vowifi_detach" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="722" mnc="034">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="722" mnc="341">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="722" mnc="340">
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="260" mnc="3">
         <int name="config_nr_display_rule" value="0"/>
