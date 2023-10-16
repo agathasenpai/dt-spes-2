@@ -11,3 +11,6 @@ telephony.active_modems.max_count=2
 
 #Bluetooth
 bluetooth.profile.asha.central.enabled=true
+
+# Privapp-permissions
+ro.control_privapp_permissions=log
