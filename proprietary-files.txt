@@ -1072,6 +1072,12 @@ vendor/firmware/st21nfc_fw7.bin
 # Power-off charging daemon
 bin/charger:bin/chargeonlymode
 
+# Protobuf
+vendor/lib/libprotobuf-cpp-full-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libprotobuf-cpp-full-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+
 # Perf
 vendor/etc/lm/PreKillFeature.xml
 vendor/etc/lm/prekill/prekill_2GB.data
