@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_spes.mk
+    $(LOCAL_DIR)/derp_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_spes-user \
-    ancient_spes-userdebug \
-    ancient_spes-eng
+    derp_spes-user \
+    derp_spes-userdebug \
+    derp_spes-eng
