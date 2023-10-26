@@ -317,10 +317,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
-# Kernel Prebuilt
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)-module/vendor-modules,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
-
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
