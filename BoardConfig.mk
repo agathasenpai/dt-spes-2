@@ -124,7 +124,7 @@ BOARD_KERNEL_CMDLINE += \
     cgroup_disable=pressure
 
 # Kernel headers
-TARGET_KERNEL_CONFIG := vendor/spes-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/bengal_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/spes
 TARGET_KERNEL_HEADERS := kernel/xiaomi/spes
 TARGET_LINUX_KERNEL_VERSION := 4.19
